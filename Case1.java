@@ -31,7 +31,7 @@ public class Case1 {
 	        // Your test code here
 			driver.findElement(By.xpath("//AppCompatButton[contains(text(),'SKIP'])")).click();
 	     
-//			driver.quit();   
+			driver.quit();   
 		}catch (Exception e) {
 			throw new Exception(e);
 		}
